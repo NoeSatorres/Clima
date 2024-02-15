@@ -1,1 +1,35 @@
-<p>dashboard works!</p>
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <input [(ngModel)]="ciudad" type=" text" class="form-control" placeholder="Ingrese ciudad">
+            <br>
+            
+
+            <button (click)="mClima()" class="btn btn-primary btn-block">Aceptar</button>
+
+            
+
+            <br>
+            <br>
+            <div class="card_header">Clima actual</div>
+            <div class="card_body">
+                <p class="card_text"> <b>Temperatura: </b> {{ temperatura }}°C</p>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <input [(ngModel)]="ciudad" type="text" class="form-control" placeholder="Ingrese ciudad">
+            <br>
+            <button (click)="mClima()" class="btn btn-primary btn-block">Aceptar</button>
+            <br>
+            <br>
+            <div class="card_header">Clima actual</div>
+            <div class="card_body">
+                <p class="card_text"> <b>Temperatura: </b> {{ temperatura }}°C</p>
+            </div>
+        </div>
+    </div>
+</div>
